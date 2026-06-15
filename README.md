@@ -1,29 +1,34 @@
-# Pulsion_urbana_v2
-👗 Pulsion Urbana - E-Commerce de Moda y Sublimados
-¡Bienvenido al repositorio oficial de Pulsion Urbana! Esta es una plataforma web moderna, rápida y responsiva diseñada para exhibir y gestionar nuestro catálogo de vestidos, prendas sublimadas y productos personalizados.
+# 👗 Prototipo V2 - Pulsión Urbana (Catálogo de Página Única)
+Este repositorio contiene el Prototipo Funcional (Versión 2) de una plataforma web para Pulsión Urbana, un microemprendimiento dedicado al diseño y confección de:
 
-El sitio está construido con tecnologías web nativas y enfocado en una experiencia de usuario fluida, cargando todo el catálogo de productos de forma dinámica.
+Vestidos de XV
 
-🚀 Características Clave
-Catálogo Dinámico: Toda la información de los productos (vestidos, diseños de sublimación, tallas, precios e imágenes) se gestiona desde un archivo centralizado JSON, facilitando la actualización del stock sin tocar el código HTML.
+Vestidos de Casamiento
 
-Diseño Responsivo (Mobile-First): Completamente optimizado para que los clientes puedan comprar cómodamente desde sus teléfonos móviles, tablets o computadoras.
+Vestidos de Graduación
 
-Filtros Inteligentes: Navegación intuitiva por categorías (Vestidos, Sublimados, Accesorios, etc.).
+Ropa Sublimada
 
-Interactividad: Galería de imágenes dinámica, efectos visuales modernos con CSS y carrito de compras funcional (o botón de pedido directo a WhatsApp).
+Ropa DTF
 
-🛠️ Tecnologías Utilizadas
-Para mantener el proyecto ligero, rápido y fácil de mantener, escalamos la arquitectura utilizando:
+Sets
 
-HTML5: Estructura semántica para un mejor SEO y accesibilidad.
+📌 Nota de Portafolio: Este proyecto fue desarrollado originalmente como una propuesta comercial. Actualmente se presenta como un Prototipo Estático Orientado a Exhibición (Showcase Website). No incluye pasarela de pagos ni procesamiento de compras, ya que su objetivo principal es demostrar habilidades técnicas en arquitectura frontend y renderizado dinámico de datos sin frameworks masivos.
 
-CSS3: Estilos personalizados, Flexbox y Grid Layout para un diseño limpio, complementado con animaciones sutiles.
+🛠️ Stack Tecnológico
+Para este desarrollo se priorizó el rendimiento óptimo y el uso de tecnologías nativas web, evitando sobrecargar la aplicación con dependencias externas:
 
-JavaScript (Vanilla JS): Lógica del lado del cliente encargada de:
+HTML5: Estructuración semántica del catálogo de página única.
 
-Consumir el archivo JSON mediante fetch().
+CSS3: Diseño personalizado con una paleta de colores en contraste oscuro, tipografías limpias y maquetación adaptiva.
 
-Inyectar los productos dinámicamente en el DOM.
+JavaScript (Vanilla JS): Lógica encargada de la interactividad de la interfaz y la manipulación del DOM.
 
-Manejar la lógica de filtros y el carrito.
+🚀 Características Técnicas Destacadas
+Arquitectura Orientada a Datos (Data-Driven DOM): En lugar de hardcodear los productos en el HTML, el catálogo se alimenta de manera asíncrona desde un archivo estático productos.json. Esto permite actualizar, añadir o quitar prendas modificando únicamente un archivo de texto.
+
+Navegación de Página Única (Single Page Layout): Toda la experiencia ocurre en una sola vista estructurada de manera que el usuario explore las distintas secciones fluidamente.
+
+Carruseles Dinámicos Independientes: Como se observa en la interfaz, cada categoría cuenta con un slider funcional (controlado por JS con selectores dinámicos) que permite navegar entre los diferentes modelos mediante controles laterales interactivos.
+
+Sección de Detalle Reactiva: Incluye un contenedor dinámico ("Seleccioná un elemento") que reacciona a las interacciones del usuario para ampliar la información de la prenda seleccionada.

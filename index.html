@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Acá va el css-->
+    <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/carrusel.css">
+    <title>Pulsion Urbana</title>
+</head>
+<body>
+    <header>
+        <h1>Pulsion Urbana</h1>
+    </header>
+    <!--Van las categorias para que se movilice de forma local-->
+    <nav>
+        <div class="contenedor_nav">
+            <ul>
+                <li>
+                    <a href="#vestidos_xv">
+                        <span>Vestidos de XV</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#vestidos_casamiento">
+                        <span>Vestidos de casamiento</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#vestidos_graduacion">
+                        <span>Vestidos de graduación</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sublimados">
+                        <span>Ropa sublimada</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#dft">
+                        <span>Ropa DTF</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sets">
+                        <span>Sets</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="contenedor_vestidos_xv" id="vestidos_xv">
+            <h2 class="titulo_clase">Vestidos de XV</h2>
+            <!-- Detalle -->
+            <div class="detalle">
+                <h2>Seleccioná un elemento</h2>
+            </div>
+            <!--Acá va el carrusel-->
+            <div class="carrusel-container" data-category="xv">
+                <button class="prev">⬅</button>
+                <div class="carrusel"></div>
+                <button class="next">➡</button>
+            </div>
+        </div>
+
+        <div class="contenedor_vestidos_casamiento" id="vestidos_casamiento">
+            <h2 class="titulo_clase">Vestidos de casamiento</h2>
+            <!-- Detalle -->
+            <div class="detalle">
+                <h2>Seleccioná un elemento</h2>
+            </div>
+            <!--Acá va el carrusel-->
+            <div class="carrusel-container" data-category="Casamiento">
+                <button class="prev">⬅</button>
+                <div class="carrusel"></div>
+                <button class="next">➡</button>
+            </div>
+        </div>
+
+        <div class="contenedor_vestidos_graduacion" id="vestidos_graduacion">
+            <h2 class="titulo_clase">Vestidos de graduacion</h2>
+            <!-- Detalle -->
+            <div class="detalle">
+                <h2>Seleccioná un elemento</h2>
+            </div>
+            <!--Acá va el carrusel-->
+            <div class="carrusel-container" data-category="Graduacion">
+                <button class="prev">⬅</button>
+                <div class="carrusel"></div>
+                <button class="next">➡</button>
+            </div>
+        </div>
+
+        <div class="contenedor_sublimados" id="sublimados">
+            <h2 class="titulo_clase">Ropa sublimada</h2>
+            <!-- Detalle -->
+            <div class="detalle">
+                <h2>Seleccioná un elemento</h2>
+            </div>
+            <!--Acá va el carrusel-->
+            <div class="carrusel-container" data-category="Sublimada">
+                <button class="prev">⬅</button>
+                <div class="carrusel"></div>
+                <button class="next">➡</button>
+            </div>
+        </div>
+
+        <div class="contenedor_dft" id="dft">
+            <h2 class="titulo_clase">Ropa DTF</h2>
+            <!-- Detalle -->
+            <div class="detalle">
+                <h2>Seleccioná un elemento</h2>
+            </div>
+            <!--Acá va el carrusel-->
+            <div class="carrusel-container" data-category="dtf">
+                <button class="prev">⬅</button>
+                <div class="carrusel"></div>
+                <button class="next">➡</button>
+            </div>
+        </div>
+
+        <div class="contenedor_sets" id="sets">
+            <h2 class="titulo_clase">Sets</h2>
+            <!-- Detalle -->
+            <div class="detalle">
+                <h2>Seleccioná un elemento</h2>
+            </div>
+            <!--Acá va el carrusel-->
+            <div class="carrusel-container" data-category="set">
+                <button class="prev">⬅</button>
+                <div class="carrusel"></div>
+                <button class="next">➡</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="titulos">
+            <h2 id="contacto">
+                Contactanos
+            </h2>
+        </div>
+        <div class="redes_footer">
+            <div class="whatsapp">
+                <ion-icon class="whatsapp_logo" name="logo-whatsapp"></ion-icon>
+                <p class="whatsapp_nombre">WhatsApp</p>
+                <p class="numero">
+                    <a href="https://wa.me/5493416221124?text=Hola%20me%20gustaria%20saber%20m%C3%A1s%20sobre%20un%20producto"
+                        target="_blank" rel="noopener noreferrer" style="color: #25D366; text-decoration: none;">
+                        5493416221124
+                    </a>
+                </p>
+            </div>
+            <div class="instagram">
+                <ion-icon class="instagram_logo" name="logo-instagram"></ion-icon>
+                <p class="instagram_nombre"></p>
+                <p class="nombre_usuario">
+                    <a href="https://www.instagram.com/pulsion_urbana_tamipacheco/" target="_blank"
+                        rel="noopener noreferrer" style="color: #E4405F; text-decoration: none;">
+                        pulsion_urbana_tamipacheco
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Acá va el JS-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="static/js/carrusel.js"></script>
+</body>
+</html>

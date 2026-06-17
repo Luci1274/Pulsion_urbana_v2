@@ -86,6 +86,10 @@ main > div h2 {
     letter-spacing: 2px;
 }
 
+.titulo_clase {
+    color: white;
+}
+
 footer {
     background: #111;
     color: white;

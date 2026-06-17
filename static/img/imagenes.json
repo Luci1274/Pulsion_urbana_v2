@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "titulo": "Vestido XV Rosa",
+    "descripcion": "Hermoso vestido de XV en color rosa con detalles en piedras. Perfecto para tu fiesta especial.",
+    "url": "foto_pulsion_urbana_prueba.jpg",
+    "categoria": "xv",
+    "precio": "$5000",
+    "talle": "S-M-L-XL"
+  },
+  {
+    "id": 2,
+    "titulo": "Vestido XV Vino",
+    "descripcion": "Elegante vestido de XV en color vino. Diseño exclusivo de Pulsión Urbana.",
+    "url": "foto_pulsion_urbana_prueba2.jpg",
+    "categoria": "xv",
+    "precio": "$5500",
+    "talle": "S-M-L-XL"
+  },
+  {
+    "id": 3,
+    "titulo": "Remera Sublimada McDonald's",
+    "descripcion": "Remera personalizada con diseño sublimado exclusivo. DTF de alta calidad.",
+    "url": "remera-personalizada-mcdonalds-lollapalooza-2025-frente-dtf.jpg.jpg",
+    "categoria": "Sublimada",
+    "precio": "$800",
+    "talle": "S-M-L-XL-XXL"
+  },
+  {
+    "id": 4,
+    "titulo": "Remera Modal Sublimada",
+    "descripcion": "Remera de tela modal sublimada. Contiene su diseño especial estampado.",
+    "url": "Remera-sublimar-adulto-modal-.jpg",
+    "categoria": "Sublimada",
+    "precio": "$1000",
+    "talle": "S-M-L-XL"
+  },
+  {
+    "id": 5,
+    "titulo": "Vestido de Casamiento Blanco",
+    "descripcion": "Elegante vestido de casamiento en color blanco con detalles delicados.",
+    "url": "remera_sublimada.jpeg",
+    "categoria": "Casamiento",
+    "precio": "$8000",
+    "talle": "XS-S-M-L-XL"
+  }
+]
